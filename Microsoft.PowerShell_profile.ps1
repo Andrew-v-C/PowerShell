@@ -1,6 +1,10 @@
 # Modify style
 $PSStyle.FileInfo.Directory = "`e[34;1m"
 
+# Create variables for convenience
+$docs = "$HOME\OneDrive\Documents"
+$proj = "$HOME\Projects"
+
 # Clear command history, and don't use it as a completion source
 Set-Content -Path (Get-PSReadLineOption).HistorySavePath -Value $null
 Set-PSReadLineOption -PredictionSource None
