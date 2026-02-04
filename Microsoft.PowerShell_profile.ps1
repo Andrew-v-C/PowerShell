@@ -1,3 +1,6 @@
+# Create aliases
+Set-Alias -Name ar -Value arduino-cli
+
 # Create function to open Neovim and reset cursor on exit
 function ed {
     & "$HOME\Software\Neovim\bin\nvim" $args
