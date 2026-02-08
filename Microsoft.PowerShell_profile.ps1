@@ -11,6 +11,8 @@ function ed {
 # Create variables for convenience
 $docs = "$HOME\OneDrive\Documents"
 $proj = "$HOME\Projects"
+$alacritty = "$ENV:APPDATA\alacritty"
+$nvim = "$ENV:LOCALAPPDATA\nvim"
 
 # Modify style
 $PSStyle.FileInfo.Directory = "`e[34;1m"
