@@ -8,9 +8,7 @@ function ed {
     Write-Host -NoNewLine "`e[5 q"
 }
 
-# Create variables for convenience
-$docs = "$HOME\OneDrive\Documents"
-$proj = "$HOME\Projects"
+# Create typing shortcuts for config paths
 $alacritty = "$ENV:APPDATA\alacritty"
 $nvim = "$ENV:LOCALAPPDATA\nvim"
 
