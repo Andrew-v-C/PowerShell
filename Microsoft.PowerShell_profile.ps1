@@ -1,5 +1,5 @@
 # Create aliases
-Set-Alias -Name py -Value python3
+Set-Alias -Name py -Value python
 Set-Alias -Name ar -Value arduino-cli
 
 # Create function to open Neovim and reset cursor on exit
