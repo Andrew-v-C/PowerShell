@@ -8,6 +8,17 @@ function ed {
     Write-Host -NoNewLine "`e[5 q"
 }
 
+# Create function to open custom calculator
+function calc {
+    Set-Location $HOME\Projects\PythonLab
+    if ($?) {
+        venv\Scripts\activate
+        if ($?) {
+            ed calc.py
+        }
+    }
+}
+
 # Create typing shortcuts for config paths
 $alacritty = "$ENV:APPDATA\alacritty"
 $nvim = "$ENV:LOCALAPPDATA\nvim"
