@@ -22,6 +22,7 @@ function calc {
 # Create typing shortcuts for config paths
 $alacritty = "$ENV:APPDATA\alacritty"
 $nvim = "$ENV:LOCALAPPDATA\nvim"
+$drive = "G:\My Drive"
 
 # Modify style
 $PSStyle.FileInfo.Directory = "`e[34;1m"
