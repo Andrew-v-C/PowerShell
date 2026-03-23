@@ -13,9 +13,6 @@ function calc {
     Set-Location $HOME\Projects\PythonLab
     if ($?) {
         venv\Scripts\activate
-        if ($?) {
-            ed calc.py
-        }
     }
 }
 
