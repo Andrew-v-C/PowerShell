@@ -12,7 +12,7 @@ function ed {
 function calc {
     Set-Location $HOME\Projects\PythonLab
     if ($?) {
-        venv\Scripts\activate
+        .PythonLab_venv\Scripts\activate
     }
 }
 
