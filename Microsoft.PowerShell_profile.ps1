@@ -4,7 +4,7 @@ Set-Alias -Name ar -Value arduino-cli
 
 # Create function to open Neovim and reset cursor on exit
 function ed {
-    & "$HOME\Software\Neovim\bin\nvim" $args
+    & "$HOME\.Software\Neovim\bin\nvim" $args
     Write-Host -NoNewLine "`e[5 q"
 }
 
